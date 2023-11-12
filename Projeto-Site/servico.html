@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato | Tidy UP</title>
+    <link rel="stylesheet" href="servico.css" />
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <script defer src="servico.js"></script>
+  </head>
+  <body>
+
+    
+    <form
+      action="https://formsubmit.co/ajax/nickolas@tigercodes.com.br"
+      method="POST"
+      data-form
+    >
+      <label for="nome">Insira o Assunto</label>
+      <input type="text" name="nome" id="nome" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" id="mensagem" required></textarea>
+      
+
+ <select style="margin-left: 10px;" class="classifica" aria-label="Default select example">
+  <option selected>Classifique a Importância </option>
+  <option value="1">Urgente</option>
+  <option value="2">Com Certa Urgencia</option>
+  <option value="3">Não Urgente</option>
+</select>
+</div>
+<br>
+      <button type="submit" data-button>Enviar</button>
+      
+    </form>
+<br>
+    
+  </body>
+</html>
